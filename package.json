@@ -1,0 +1,24 @@
+{
+  "name": "castordemo",
+  "version": "1.0.0",
+  "description": "Practicing test automation on one of Castors Products",
+  "main": "hello.js",
+  "url": "https://uk.castoredc.com",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bodebode/CastorDemo1.git"
+  },
+  "author": "Nathan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bodebode/CastorDemo1/issues"
+  },
+  "homepage": "https://github.com/Bodebode/CastorDemo1#readme",
+  "dependencies": {
+    "mocha": "^10.1.0",
+    "prettier": "^2.7.1"
+  }
+}
