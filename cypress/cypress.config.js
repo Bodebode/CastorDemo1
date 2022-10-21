@@ -1,6 +1,7 @@
 const { defineConfig } = require("cypress");
 
 module.exports = defineConfig({
+  reporter: 'mochawesome',
   e2e: {
     baseUrl: `https://uk.castoredc.com`,
     // const x = ('https://uk.castoredc.com/')
