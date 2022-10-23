@@ -1,10 +1,10 @@
-describe('The CastorEDC homepage',
+describe('The Castor_e-Consent homepage - Login page',
     () => {
         const x = ('https://uk.castoredc.com/')
-      it('Navigates to Castors login page',
-          () => {
-              cy.visit(x)
-          })
+        it('Navigates to Castors login page',
+            () => {
+                cy.visit(x)
+            })
 
         it ('Verifies that the page that was loaded is indeed the "Log in" page', () => {
             cy.url()
@@ -56,12 +56,26 @@ describe('The CastorEDC homepage',
             })
 
         it('Verifies that the Login authentication process is successful', function () {
-                cy.url()
-                cy.location('href')
-                cy.url().should('include', 'uk.castoredc.com/studies') // ASSERTIONS => true
+            cy.url()
+            cy.location('href')
+            cy.url().should('include', 'uk.castoredc.com/studies') // ASSERTIONS => true
         });
     });
 
+
+describe('Study Structure - Create Visit',
+    () => {
+        const x = ('https://uk.castoredc.com/')
+        it('If there are already lists of Studies, users can see them',
+            () => {
+                cy.contains('My Studies')
+                cy.contains('Not Live')
+            })
+        it('Verifies that User is able to access the Study Structure link',
+            () => {
+                //cy.contains('Study structure')
+            })
+    })
 // describe('This is to test the Login functionality', () => {
 //     beforeEach()=>{
 //     }
