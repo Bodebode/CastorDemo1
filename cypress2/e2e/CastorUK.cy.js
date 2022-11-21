@@ -1,15 +1,21 @@
-describe('The CastorEDC homepage - Login',
+describe('The Convertr homepage - Login',
     () => {
-        const x = ('https://uk.castoredc.com/')
-      it('Navigates to Castors login page',
+       // const x = (' http://localhost:4202/login/')
+        const t = (' http://google.com/')
+      it('Navigates to the Convertr login page',
           () => {
-              cy.visit(x)
+              cy.visit(t)
+              cy.pause
           })
 
         it ('Verifies that the page that was loaded is indeed the "Log in" page', () => {
             cy.url()
             cy.url().should('include', 'castoredc') // ASSERTIONS => true
             cy.contains('Log in')//.should('include', 'Log in')
+            cy.url().should('be.equal', 'https://example.com/login')
+            cy.url().should(
+                'be.equal',
+                `${Cypress.config("baseUrl")}/login`
         })
 
         it ('Verifies that the default server is the UK server',() => {

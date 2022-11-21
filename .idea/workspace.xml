@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b43d135c-ed49-4a88-9ee0-370dae26c8c5" name="Changes" comment="Third commit for castors automation, Castor_e-Consent is added as a place holder only, a working version will be added soon.">
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/cypress.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/cypress.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/cypress/e2e/Castor_e-Consent.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/Castor_e-Consent.cy.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cypress/e2e/CastorUK.cy.js" beforeDir="false" afterPath="$PROJECT_DIR$/cypress/e2e/CastorUK.cy.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -73,6 +72,15 @@
       <workItem from="1666292368738" duration="104000" />
       <workItem from="1666359315045" duration="640000" />
       <workItem from="1666394977375" duration="18268000" />
+      <workItem from="1668806096204" duration="2878000" />
+      <workItem from="1668820267245" duration="43000" />
+      <workItem from="1668820458576" duration="23000" />
+      <workItem from="1668821269053" duration="69000" />
+      <workItem from="1668821340784" duration="31000" />
+      <workItem from="1668821527234" duration="9000" />
+      <workItem from="1668883713596" duration="20000" />
+      <workItem from="1668999138105" duration="47000" />
+      <workItem from="1668999209846" duration="50000" />
     </task>
     <task id="LOCAL-00001" summary="First Castoredc Commit for test automation on Cypress">
       <created>1666131757589</created>
